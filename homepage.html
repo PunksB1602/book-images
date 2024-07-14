@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamro Books</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="book.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="favicon_io/site.webmanifest">
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> Hamro Books </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="./cart.html" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="#featured">featured</a>
+            <a href="#">category</a>
+            <a href="#reviews">reviews</a>
+            <a href="./feedback.html">feedback</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#feedback" class="fas fa-feedback"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>upto 35% off</h3>
+            <p>If you’re a student and need a book,HamroBooks has great deals on a wide range of books. Shop for these books from top authors and avail hugely discounted prices</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="https://github.com/PunksB1602/book-images/blob/main/Engineering%20Mathematics%20I.png?raw=true" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="https://github.com/PunksB1602/book-images/blob/main/Engineering%20Mathematics%20II.png?raw=true" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="https://github.com/PunksB1602/book-images/blob/main/Engineering%20Mathematics%20III.png?raw=true" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="https://github.com/PunksB1602/book-images/blob/main/Engineering%20Chemistry.png?raw=true" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="https://github.com/PunksB1602/book-images/blob/main/Engineering%20Physics.png?raw=true" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="https://github.com/PunksB1602/book-images/blob/main/Data%20Structure%20and%20Algorithm.png?raw=true" alt=""></a>
+            </div>
+            <img src="https://github.com/PunksB1602/book-images/blob/main/stand.png?raw=true" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>free shipping</h3>
+            <p>order over Rs.500</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>secure payment</h3>
+            <p>100 secure payment</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>easy returns</h3>
+            <p>14 days returns</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured books</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                   <a href="./product.html"> <img src="https://github.com/PunksB1602/book-images/blob/main/Data%20Structure%20and%20Algorithm.png?raw=true" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="./product.html"> <img src="https://github.com/PunksB1602/book-images/blob/main/Object%20Oriented%20Programming.png?raw=true" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>                  
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="product.html"><img src="https://github.com/PunksB1602/book-images/blob/main/C%20Programming.png?raw=true" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://github.com/PunksB1602/book-images/blob/main/Digital%20Logic.png?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://github.com/PunksB1602/book-images/blob/main/Probability%20and%20Statistics.png?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://github.com/PunksB1602/book-images/blob/main/Numerical%20Methods.png?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://github.com/PunksB1602/book-images/blob/main/Engineering%20Physics.png?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://github.com/PunksB1602/book-images/blob/main/Basic%20Electrical%20Engineering.png?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://github.com/PunksB1602/book-images/blob/main/Applied%20Mathematics.png?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://github.com/PunksB1602/book-images/blob/main/Engineering%20Drawing%20I.png?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <a href="./cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+
+<!-- category section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> <span>Category</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://github.com/PunksB1602/book-images/blob/main/Basic%20Electrical%20Engineering.png?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>Academics</h3>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://github.com/PunksB1602/book-images/blob/main/Dracula.jpg?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>Fiction/Fantasy</h3>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://github.com/PunksB1602/book-images/blob/main/History.jpg?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>History</h3>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://github.com/PunksB1602/book-images/blob/main/Poetry.jpg?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>Poetry</h3>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://github.com/PunksB1602/book-images/blob/main/Drama.jpg?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>Drama</h3>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://github.com/PunksB1602/book-images/blob/main/Biography.jpg?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>Biography</h3>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://github.com/PunksB1602/book-images/blob/main/Health%20and%20Fitness.jpg?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>Health and Fitness</h3>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://github.com/PunksB1602/book-images/blob/main/Finance.jpg?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>Business and Finance</h3>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- category section ends -->
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Kathmandu </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Lalitpur </a>
+        </div>
+
+        <div class="box`
+            <h3>quick links</h3>
+            <a href="./index.html"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Category </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> 9843787118 </a>
+            <a href="#"> <i class="fas fa-phone"></i> 9865920096 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> gautamsubham65@gmail.com </a>
+            <a href="#"> <i class="fas fa-envelope"></i> pankajbhatt16@hotmail.com </a>
+            <img src="https://github.com/PunksB1602/book-images/blob/main/map.png?raw=true" class="map" alt="">
+        </div>
+
+    </div>
+
+    <div class="share">
+        <a href="https://www.facebook.com" class="fab fa-facebook-f"></a>
+        <a href="https://twitter.com" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com" class="fab fa-linkedin"></a>
+    </div>
+
+    <div class="credit"> created by <span>Subham Gautam & Pankaj Bhatt </span>copyright ©2024 all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader  -->
+
+<div class="loader-container">
+    <img src="https://github.com/PunksB1602/book-images/blob/main/loader-img.gif?raw=true" alt="">
+</div>
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="book.js"></script>
+
+</body>
+</html>
